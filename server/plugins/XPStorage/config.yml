@@ -1,0 +1,25 @@
+# Settings for the XP-Barrel
+xp-barrel:
+  # If true, the barrel can collect experience in it's defined range. (Default: true)
+  # Can be enabled/disabled in the settings menu of the barrel.
+  enable-xp-collecting: true
+  # The maximum range experience can be collected around the barrel. (Min: 1.0, Max: 10.0, Default: 3.0)
+  max-xp-collecting-range: 3.0
+  # The maximum experience levels a barrel can hold. (Min: 0, Max: Integer:MAX, Default: 0)
+  # 0 means infinite experience levels.
+  max-xp-lvl: 0
+
+# Settings for the XP-Bottler
+xp-bottler:
+  # The maximum experience levels a bottle can hold. (Min: 0, Max: Integer:MAX, Default: 30)
+  # 0 means infinite experience levels.
+  max-bottle-lvl: 30
+
+# Enables or disables a recipe. If a recipe is disabled in here nobody can craft it, regardless of the permission.
+# Per default all recipes are enabled.
+crafting:
+  xp-barrel: true
+  xp-bottler: true
+
+# If true, disabled recipes will be shown in the recipe gui. (Default: true)
+show-disabled-recipes: true

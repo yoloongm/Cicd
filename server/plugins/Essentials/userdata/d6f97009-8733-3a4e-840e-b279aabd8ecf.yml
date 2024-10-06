@@ -1,0 +1,49 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 0:0:0:0:0:0:0:1
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1728248275330
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1728249850409
+  login: 1728249877072
+  kits:
+    tools: 1728120325390
+money: '8643802.269999999998'
+last-account-name: KubyLuvz
+lastlocation:
+  world: de14733c-060d-483f-ae66-54681538c91c
+  world-name: world
+  x: 10009.787008072202
+  y: 70.0
+  z: -9223.546408498258
+  yaw: -100.72367095947266
+  pitch: 24.873592376708984
+logoutlocation:
+  world: de14733c-060d-483f-ae66-54681538c91c
+  world-name: world
+  x: 10128.253718757564
+  y: 71.0
+  z: -9125.87288784078
+  yaw: -15.97491455078125
+  pitch: 45.14879608154297
+homes:
+  home:
+    world: de14733c-060d-483f-ae66-54681538c91c
+    world-name: world
+    x: -11.8437304850104
+    y: 34.0
+    z: -1081.3922395856418
+    yaw: -93.8499755859375
+    pitch: -2.140791177749634

@@ -1,0 +1,14 @@
+[20:41:47] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[20:41:47] [main/FATAL]: Failed to start the minecraft server
+net.minecraft.util.SessionLock$ExceptionWorldConflict: /workspaces/Cicd/server/./world/session.lock: already locked (possibly by other Minecraft instance?)
+	at net.minecraft.util.DirectoryLock$LockException.alreadyLocked(DirectoryLock.java:98) ~[app:?]
+	at net.minecraft.util.DirectoryLock.create(DirectoryLock.java:44) ~[app:?]
+	at net.minecraft.world.level.storage.LevelStorageSource$LevelStorageAccess.<init>(LevelStorageSource.java:338) ~[app:?]
+	at net.minecraft.world.level.storage.LevelStorageSource.createAccess(LevelStorageSource.java:308) ~[app:?]
+	at net.minecraft.server.Main.main(Main.java:151) ~[patched_1.17.1.jar:git-Purpur-1428]
+	at org.bukkit.craftbukkit.Main.main(Main.java:301) ~[patched_1.17.1.jar:git-Purpur-1428]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at io.papermc.paperclip.Paperclip.main(Paperclip.java:49) ~[server.jar:?]

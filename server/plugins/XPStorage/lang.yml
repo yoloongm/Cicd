@@ -1,0 +1,113 @@
+blocks:
+  xp-barrel: XP-Barrel
+  xp-bottler: XP-Bottler
+items:
+  custom-xp-bottle: Custom XP-Bottle
+common:
+  owner: Owner
+  info: Information
+  settings: Settings
+  back: Back
+  public-mode:
+    name: Public Mode
+    desc: Everyone have access, except players with denied access rights.
+  private-mode:
+    name: Private Mode
+    desc: Nobody have access, except the owner and players with allowed access rights.
+  no-access: Sorry, but you don't have the right to do that!
+  'yes': 'Yes'
+  'no': 'No'
+  save: Save
+  load-default: Load Default
+  previous-page: Previous Page
+  next-page: Next Page
+  unknown-player: Unknown Player.
+  give-item: Give Item
+  click:
+    left: Left Click
+    right: Right Click
+    middle: Middle Click
+  range: 'Collecting Range: {Range}'
+command:
+  are-you-sure: Are you sure?
+access:
+  caption: Access Rights
+  edit: Edit Access
+  edit-button: Configure Player Access
+  enter-name: 'Enter player name:'
+  add-player: Add Player
+  added-player: '{PlayerName} added successfully!'
+  delete-access: Delete Access
+  player-already-exists: '{PlayerName} already exists!'
+  change-owner: Change Owner
+  change-owner-success: Owner successfully changed to {PlayerName}.
+  rights:
+    view: View
+    withdraw: Withdraw XP
+    deposit: Deposit XP
+    use: Use
+  edit-slot: Take/Place Items
+recipes:
+  singular: Recipe
+  plural: Recipes
+  view: View Recipe
+  edit: Edit Recipe
+  no-empty: Recipe can't be empty!
+  shaped: Shaped Recipe
+  shapeless: Shapeless Recipe
+  disabled: 'Note: This recipe is currently disabled by config!'
+experience:
+  deposit: Deposit {Levels}
+  deposit-all: Deposit All
+  withdraw: Withdraw {Levels}
+  withdraw-all: Withdraw All
+  stored-text: Stored {XPLevels} levels and {XPInBar} experience.
+  limit: 'Experience Level Limit: {XPLevels}'
+xp-barrel:
+  collect-xp: Collect Experience
+xp:
+  barrel:
+    collect-xp-no: Don't Collect Experience
+xp-bottler:
+  fill-bottle: Fill XP-Bottle
+commands:
+  help:
+    desc: -- Displays the help.
+  info:
+    desc: -- Displays some information about this plugin and check for updates.
+  reload:
+    desc: -- Reloads the configuration of this plugin.
+  show:
+    desc: -- Show how many experience points a player have.
+    text: Player {PlayerName} has {XPTotal} total experience points ({XPLevels} levels
+      and {XPInBar} experience). Needs {XPNextLevel} experience points to level up.
+  give:
+    desc: -- Gives a player a block/item of this plugin.
+  how-to:
+    desc: -- Tells the player how to use the xp barrel.
+    recipe-click: Click to view recipe.
+  recipes:
+    desc: -- Shows all recipes and how to craft them.
+  common:
+    no-permission: Sorry, but you don't have the permission to do that!
+    not-a-player: This command can only executed as a player!
+    convert-fail: Failed to parse. Possible typo?
+    inventory-full: Inventory of {PlayerName} is full!
+commands,how-to:
+  choose-topic: 'Choose topic:'
+  unknown-topic: Unknown topic!
+how-to:
+  xp-barrel:
+    step1: '1. Craft the XP-Barrel: '
+    step2: 2. Place the XP-Barrel and open it with right click.
+    step3: 3. Deposit or withdraw experience with the labeled icons. (Deposit 1, Deposit
+      10, ...)
+    step4: 4. You can control access rights for players or enabled xp collecting in
+      the settings tab. (Command Block Icon)
+  xp-bottler:
+    step1: '1. Craft the XP-Bottler: '
+    step2: 2. Place the XP-Bottler and open it with right click.
+    step3: 3. Deposit or withdraw experience with the labeled icons. (Deposit 1, Deposit
+      10, ...)
+    step4: 4. Place empty glass bottles over the info book und click the xp bottle
+      icon to craft the custom xp bottle.

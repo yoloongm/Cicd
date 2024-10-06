@@ -1,0 +1,3 @@
+marketplace-service: SPIGOTMC
+cache-time-in-minutes: 10
+startup-on-install: false

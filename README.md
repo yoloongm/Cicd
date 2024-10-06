@@ -7,7 +7,7 @@
 <p align="center"><i>Maybe soon a ngrok or cloudflare tunnels.</i></p>
 <br>
 <h1> Renember to use this commands!!! </h1>
-<p>chmod +x install.sh</p>
+<p></p>
 <p>./install.sh</p>
 <p>sdk install java 17.0.9-amzn</p>
 <p>write "y", without ", and MAKE SURE TO WRITE y</p>
@@ -20,3 +20,4 @@
 <h2> Renember to use chmod +x name.sh </h2>
 <h2> Change the "name.sh" according to the files ^ above </h2>
 <p>To start the script</p>
+chmod +x install.sh

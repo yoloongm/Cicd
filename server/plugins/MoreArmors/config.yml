@@ -1,0 +1,30 @@
+titanarmor:
+  enabled: true
+  crafting: true
+emeraldarmor:
+  crafting: true
+  enabled: true
+seagreedarmor:
+  enabled: true
+  crafting: true
+destroyerarmor:
+  crafting: true
+  enabled: true
+endarmor:
+  crafting: true
+  enabled: true
+experiencearmor:
+  enabled: true
+  crafting: true
+materials:
+  crafting: true
+netherarmor:
+  crafting: true
+  enabled: true
+minerarmor:
+  enabled: true
+  crafting: true
+speedsterarmor:
+  crafting: true
+  enabled: true
+damageindicators: true
